@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         video1.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.rabbid));
         video1.start();
 
-        MediaPlayer media = MediaPlayer.create(this, R.raw.baby_laughing);
-        media.start();
+        MediaPlayer mediatest = MediaPlayer.create(this, R.raw.baby_laughing);
+        mediatest.start();
 
     }
 }
